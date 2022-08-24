@@ -5,7 +5,7 @@ def wm(u,c):
     
 
 upd = Updater("5691804740:AAFOJtZTvnpaVYrvtOwfVTWUx1-jSTu0hUM",use_context=True)
-upd.add_handler("start",wm)
+upd.message.add_handler("start",wm)
 
 upd.start_polling()
 upd.idle()
